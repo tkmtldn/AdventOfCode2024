@@ -11,7 +11,7 @@ fun main() {
         } else {
             var summed = false
             for (i in 0..n.size-1){
-                var anotherList = n.toMutableList()
+                val anotherList = n.toMutableList()
                 anotherList.removeAt(i)
                 if (checkReports(anotherList)) {summed = true}
             }
