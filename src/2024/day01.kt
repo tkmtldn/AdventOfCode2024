@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
             numbers1 = numbers1 + n[0].toInt()
             numbers2 = numbers2 + n[1].toInt()
             }
-    readFileLineByLineUsingForEachLine("src/2024/d01.txt")
+    readFileLineByLineUsingForEachLine("src/2024/data/input01.txt")
 
     numbers1 = numbers1.sorted()
     numbers2 = numbers2.sorted()

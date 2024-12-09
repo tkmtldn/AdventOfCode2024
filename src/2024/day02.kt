@@ -19,7 +19,7 @@ fun main() {
         }
     }
 
-    readFileLineByLineUsingForEachLine("src/2024/d02.txt")
+    readFileLineByLineUsingForEachLine("src/2024/data/input02.txt")
     println(sum1)
     println(sum1+sum2)
 }

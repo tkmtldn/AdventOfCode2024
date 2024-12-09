@@ -3,7 +3,7 @@ import java.io.File
 fun main() {
     fun readFileAsLinesUsingUseLines(fileName: String): List<String>
             = File(fileName).useLines { it.toList() }
-    val content = readFileAsLinesUsingUseLines("src/2024/d03.txt").toString()
+    val content = readFileAsLinesUsingUseLines("src/2024/data/input03.txt").toString()
 
     println(regexSearch(content))
 
